@@ -23,7 +23,9 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
-    padding: 0 133px;
+    padding: 0px;
+	width:65%;
+	 margin: 0 auto;
 }
 a.down_btn{ background-color:#e55a51; text-align; center; color:#ffffff; padding:20px 50px;font-size:20px; font-weight:300; text-decoration:none; border-radius: 35px;display: inline-block; margin: 10px 0 20px;}
 
@@ -37,9 +39,8 @@ a.down_btn{ background-color:#e55a51; text-align; center; color:#ffffff; padding
 
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
+@media only screen and (max-width :480px) 
+ {
 .thankYou-bg {
     background: url("../images/background_lp.png") no-repeat scroll center center / 443px 337px rgba(0, 0, 0, 0);
     font-family: 'Open Sans',sans-serif;
@@ -48,6 +49,7 @@ and (max-device-width : 480px) {
     min-height: 336px;
     padding: 20px 61px 1px 48px;
     width: 100%;
+	
 }
 .thankYou-bg h1 {
        font-size: 26px;
@@ -59,11 +61,13 @@ and (max-device-width : 480px) {
     margin-top: 0;
 }
 .thankYou-bg p {
-    color: rgb(54, 54, 54);
-    font-size: 13px;
+    color: #363636;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 18px;
-    padding: 2px 16px;
+    line-height: 22px;
+    margin: 0 auto;
+    padding: 0;
+    width: 89%;
 }
 a.down_btn {
     background-color: rgb(229, 90, 81);
@@ -78,10 +82,14 @@ a.down_btn {
 }
 }
 
-
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
 
 /* Smartphones (portrait) ----------- */
-@media only screen 
+/* @media only screen 
 and (max-width : 320px) {
 .thankYou-bg p {
     color: rgb(54, 54, 54);
@@ -99,13 +107,49 @@ and (max-width : 320px) {
     padding: 20px 1px 1px 4px;
     width: 100%;
 }
+} */
+
+@media only screen 
+and (max-width : 650px) {
+.thankYou-bg {
+    background: url("../images/background_lp.png") no-repeat scroll center center / 443px 337px rgba(0, 0, 0, 0);
+    font-family: 'Open Sans',sans-serif;
+    height: 100%;
+    max-width: 756px;
+    min-height: 336px;
+    padding: 20px 61px 1px 48px;
+    width: 100%;
+	
+}
+.thankYou-bg h1 {
+    color: #01759d;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 1px;
+}
+a.down_btn {
+    background-color: #e55a51;
+    border-radius: 35px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 10px 0 20px;
+    padding: 10px 50px;
+    text-decoration: none;
+}
+.thankYou-bg h2 {
+    color: #01759d;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 0;
+	
+}
 }
 
 
-/* Smartphones (portrait and landscape) ----------- */
 @media only screen 
-and (min-device-width : 481px) 
-and (max-device-width :600px ) {
+and (max-width : 687px) {
 .thankYou-bg {
     background: url("../images/background_lp.png") no-repeat scroll center center / 443px 337px rgba(0, 0, 0, 0);
     font-family: 'Open Sans',sans-serif;
@@ -115,75 +159,8 @@ and (max-device-width :600px ) {
     padding: 20px 61px 1px 48px;
     width: 100%;
 }
-.thankYou-bg h1 {
-       font-size: 26px;
-  }
-  .thankYou-bg h2 {
-    color: rgb(1, 117, 157);
-    font-size: 22px;
-    font-weight: 400;
-    margin-top: 0;
-}
-.thankYou-bg p {
-    color: rgb(54, 54, 54);
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 18px;
-    padding: 2px 18%;
-	border:1px solid red;
-}
-a.down_btn {
-    background-color: rgb(229, 90, 81);
-    border-radius: 35px;
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    font-size: 17px;
-    font-weight: 300;
-    margin: 0 0 9px;
-    padding: 10px 25px;
-    text-decoration: none;
-}
 }
 
-
-
-@media only screen 
-and (min-device-width : 601px) 
-and (max-device-width :710px ) {
-
-.thankYou-bg {
-    background: url("../images/background_lp.png") no-repeat scroll left center / contain rgba(0, 0, 0, 0);
-    font-family: 'Open Sans',sans-serif;
-    height: 100%;
-    max-width: 756px;
-    min-height: 466px;
-    padding: 10% 0 0;
-    width: 100%;
-}
-.thankYou-bg h1 {
-    color: #01759d;
-    font-size: 32px;
-    font-weight: 800;
-    margin-bottom: 1px;
-}
-.thankYou-bg h2 {
-    color: #01759d;
-    font-size: 34px;
-    font-weight: 400;
-    margin-top: 0;
-}
-a.down_btn {
-    background-color: #e55a51;
-    border-radius: 35px;
-    color: #ffffff;
-    display: inline-block;
-    font-size: 20px;
-    font-weight: 300;
-    margin: 0 0 12px;
-    padding: 9px 30px;
-    text-decoration: none;
-}
-}
 
 
 
@@ -203,6 +180,7 @@ and (max-device-width : 1024px) {
 }
 
 }
+
 
 
 

@@ -1117,8 +1117,6 @@ pre code {
     margin-left: 0%;
   }
 }
-
-
 @media (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
@@ -1268,7 +1266,7 @@ pre code {
     margin-left: 25%;
   }
   .col-md-offset-2 {
-    margin-left: 10.667%;
+    margin-left: 16.66666667%;
   }
   .col-md-offset-1 {
     margin-left: 8.33333333%;
@@ -1277,10 +1275,6 @@ pre code {
     margin-left: 0%;
   }
 }
-
-
-
-
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
@@ -1437,9 +1431,6 @@ pre code {
   }
   .col-lg-offset-0 {
     margin-left: 0%;
-  }
-   .col-md-offset-2 {
-    margin-left: 18.667%;
   }
 }
 table {
